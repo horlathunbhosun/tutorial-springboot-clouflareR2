@@ -1,0 +1,17 @@
+spring:
+  application:
+    name:  FileUploadTutorial
+
+
+#cloudfare configuration
+application:
+  cloudflare:
+    r2:
+      access-key: <access-key>
+      secret-key: <secret-key>
+      endpoint: <endpoint>
+      bucket-name: <bucket-name>
+      public-url: <public-url>
+server:
+  port: 9020
+
